@@ -6,27 +6,13 @@
 <title>The 359</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fraunces:SOFT,WONK,opsz,wght@100,0,40,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght,WONK@300,1&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --bg: #000000;
-    --text: #FFFFFF;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  html, body {
-    height: 100%;
-  }
-
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
   body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #000000;
+    color: #F5F1E8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,35 +20,22 @@
     padding: 2rem;
     text-align: center;
   }
-
-  .content {
-    max-width: 90vw;
-  }
-
-  h1 {
-    font-family: "Fraunces", serif;
-    font-weight: 900;
-    font-optical-sizing: none;
-    font-variation-settings: 'SOFT' 100, 'WONK' 0, 'opsz' 40;
-    font-size: clamp(2.5rem, 8vw, 5rem);
-    letter-spacing: 0.01em;
-    line-height: 1.1;
-    color: var(--text);
-  }
-
+  .content { display: flex; flex-direction: column; align-items: center; }
+  .logo { max-width: min(480px, 80vw); height: auto; }
   p {
-    font-family: "Atkinson Hyperlegible", sans-serif;
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
-    font-weight: 400;
-    color: var(--text);
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    font-weight: 300;
+    font-optical-sizing: none;
+    font-variation-settings: 'wght' 300, 'WONK' 1;
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
+    letter-spacing: 0.02em;
+    margin-top: 1.5rem;
   }
 </style>
 </head>
 <body>
   <div class="content">
-    <h1>The 359</h1>
+    <img class="logo" src="the-359-white-transparent.png" alt="The 359">
     <p>Coming Soon</p>
   </div>
 </body>
